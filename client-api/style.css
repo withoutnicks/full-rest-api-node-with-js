@@ -1,0 +1,86 @@
+body {
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 16px;
+}
+
+input,
+button {
+  width: 200px;
+  padding: 8px 16px;
+}
+
+button {
+  margin-top: 16px;
+}
+
+#users {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.card {
+  width: 200px;
+  padding: 8px 4px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ccc;
+  color: black;
+
+  & img {
+    width: 80px;
+    background-color: #9E9E9E;
+    border-radius: 10%;
+    margin-bottom: 0;
+  }
+
+  & p {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+  }
+}
+
+.btn {
+  width: auto;
+  margin: 0;
+  padding: 8px;
+  cursor: pointer;
+  color: #222;
+  background-color: #9E9E9E;
+
+  &.ed:hover {
+    background-color: #FFC107;
+  }
+
+  &.rm:hover {
+    color: #fff;
+    background-color: #F44336;
+  }
+
+  &.ss:hover {
+    background-color: #28f321;
+  }
+}
+
+h2 {
+  margin: 0 0 32px 0;
+}
+
+dialog {
+  border: 10px double #222;
+  padding: 32px 16px;
+}
+
+#editModal::backdrop {
+  background: linear-gradient(#000d, #000a);
+}

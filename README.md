@@ -9,33 +9,33 @@ Basic Full Stack project that uses Node for the REST API and Vanilla JS for comm
 > [!IMPORTANT]
 > It is important to execute the commands in the respective folders.
 
-<table><tr><td>Backend</td></tr></table>
+### <table><tr><td>🧱 Backend</td></tr></table>
 
 Install dependencies
 ```sh
-  pnpm install
+pnpm install
 ```
 > [!WARNING]
 > This project uses PostgreSQL as a database, so you must create a file <kbd>.env</kbd> in the root of the project with your data in <kdb>src/database.js</kdb>
 
 Execute server
 ```sh
-  pnpm dev
+pnpm dev
 ```
 
-<table><tr><td>Frontend</td></tr></table>
+### <table><tr><td>🖼 Frontend</td></tr></table>
 
 > [!TIP]
 > If you already loaded the backend, run the frontend
 
 Install dependencies
 ```sh
-  pnpm install
+pnpm install
 ```
 
 Execute server
 ```sh
-  pnpm dev
+pnpm dev
 ```
 ## Tech Stack
 
